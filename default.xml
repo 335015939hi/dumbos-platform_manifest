@@ -73,7 +73,7 @@
   <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/caimito" name="device/google/caimito" groups="device,caimito" />
+  <project path="device/google/caimito" name="device_google_caimito" groups="device,caimito" remote="grapheneos" />
   <project path="device/google/caimito-sepolicy" name="device/google/caimito-sepolicy" groups="device,caimito" />
   <project path="device/google/comet" name="device/google/comet" groups="device,comet" />
   <project path="device/google/comet-sepolicy" name="device/google/comet-sepolicy" groups="device,comet" />
