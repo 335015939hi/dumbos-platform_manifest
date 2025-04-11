@@ -97,7 +97,7 @@
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
-  <project path="device/google/tegu" name="device/google/tegu" groups="device,tegu" />
+  <project path="device/google/tegu" name="device_google_tegu" groups="device,tegu" remote="grapheneos" />
   <project path="device/google/tegu-sepolicy" name="device/google/tegu-sepolicy" groups="device,tegu" />
   <project path="device/google/tegu-kernels/6.1" name="device/google/tegu-kernels/6.1" groups="device,tegu" clone-depth="1" />
   <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1"/>
