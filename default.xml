@@ -3,6 +3,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS/" revision="refs/tags/2025050700"/>
   <remote name="grapheneos-gitlab" fetch="https://gitlab.com/grapheneos/" revision="refs/tags/2025050700"/>
+  <remote name="grago" fetch="https://github.com/grago/" revision="refs/tags/2025050700"/>
   
   <default remote="aosp" revision="refs/tags/android-15.0.0_r36" sync-j="4"/>
   
