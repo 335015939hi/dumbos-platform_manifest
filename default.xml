@@ -62,6 +62,9 @@
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/google/akita" name="device_google_akita" groups="device,akita" remote="grapheneos" />
+  <project path="device/google/akita-sepolicy" name="device/google/akita-sepolicy" groups="device,akita" />
+  <project path="device/google/akita-kernels/6.1" name="device_google_akita-kernels_6.1" groups="device,akita" clone-depth="1" remote="grapheneos" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/common/etm" name="device/google/common/etm" groups="device" clone-depth="1" />
