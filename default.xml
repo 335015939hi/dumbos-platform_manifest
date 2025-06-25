@@ -63,25 +63,25 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/akita" name="device_google_akita" groups="device,akita" remote="grapheneos" />
-  <project path="device/google/akita-sepolicy" name="device/google/akita-sepolicy" groups="device,akita" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/akita-sepolicy" name="device_google_akita-sepolicy" groups="device,akita" remote="grapheneos" />
   <project path="device/google/akita-kernels/6.1" name="device_google_akita-kernels_6.1" groups="device,akita" clone-depth="1" remote="grapheneos" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
-  <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/bluejay-sepolicy" name="device_google_bluejay-sepolicy" groups="device,bluejay" remote="grapheneos" />
   <project path="device/google/bluejay-kernels/6.1" name="device_google_bluejay-kernels_6.1" groups="device,bluejay" clone-depth="1" remote="grapheneos" />
   <project path="device/google/caimito" name="device_google_caimito" groups="device,caimito" remote="grapheneos" />
   <project path="device/google/caimito-kernels/6.1" name="device_google_caimito-kernels_6.1" groups="device,caimito" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/caimito-sepolicy" name="device/google/caimito-sepolicy" groups="device,caimito" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/caimito-sepolicy" name="device_google_caimito-sepolicy" groups="device,caimito" remote="grapheneos" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/comet" name="device_google_comet" groups="device,comet" remote="grapheneos" />
   <project path="device/google/comet-kernels/6.1" name="device_google_comet-kernels_6.1" groups="device,comet" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/comet-sepolicy" name="device/google/comet-sepolicy" groups="device,comet" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/comet-sepolicy" name="device_google_comet-sepolicy" groups="device,comet" remote="grapheneos" />
   <project path="device/google/common/etm" name="device/google/common/etm" groups="device" clone-depth="1" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
-  <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/felix-sepolicy" name="device_google_felix-sepolicy" groups="device,felix" remote="grapheneos" />
   <project path="device/google/felix-kernels/6.1" name="device_google_felix-kernels_6.1" groups="device,felix" clone-depth="1" remote="grapheneos" />
   <project path="device/google/gs101" name="device_google_gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
@@ -89,21 +89,21 @@
   <project path="device/google/gs201-sepolicy" name="device_google_gs201-sepolicy" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/gs-common" name="device_google_gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc,pdk-gs-imgtec" remote="grapheneos" />
   <project path="device/google/lynx" name="device_google_lynx" groups="device,lynx" remote="grapheneos" />
-  <project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/lynx-sepolicy" name="device_google_lynx-sepolicy" groups="device,lynx" remote="grapheneos" />
   <project path="device/google/lynx-kernels/6.1" name="device_google_lynx-kernels_6.1" groups="device,lynx" clone-depth="1" remote="grapheneos" />
   <project path="device/google/pantah" name="device_google_pantah" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper,pdk-gs-arm" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/pantah-sepolicy" name="device_google_pantah-sepolicy" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/pantah-kernels/6.1" name="device_google_pantah-kernels_6.1" groups="device,cloudripper" clone-depth="1" remote="grapheneos" />
   <project path="device/google/raviole" name="device_google_raviole" groups="device,slider,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/raviole-kernels/6.1" name="device_google_raviole-kernels_6.1" groups="device,slider" clone-depth="1" remote="grapheneos" />
   <project path="device/google/shusky" name="device_google_shusky" groups="device,ripcurrent,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/shusky-kernels/6.1" name="device_google_shusky-kernels_6.1" groups="device,ripcurrent" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent,pdk-gs-arm" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/shusky-sepolicy" name="device_google_shusky-sepolicy" groups="device,ripcurrent,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/tangorpro" name="device_google_tangorpro" groups="device,tangorpro" remote="grapheneos" />
-  <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" revision="refs/tags/android-15.0.0_r36" />
+  <project path="device/google/tangorpro-sepolicy" name="device_google_tangorpro-sepolicy" groups="device,tangorpro" remote="grapheneos" />
   <project path="device/google/tangorpro-kernels/6.1" name="device_google_tangorpro-kernels_6.1" groups="device,tangorpro" clone-depth="1" remote="grapheneos" />
   <project path="device/google/tegu" name="device_google_tegu" groups="device,tegu" remote="grapheneos" />
-  <project path="device/google/tegu-sepolicy" name="device/google/tegu-sepolicy" groups="device,tegu" revision="refs/tags/android-15.0.0_r31" />
+  <project path="device/google/tegu-sepolicy" name="device_google_tegu-sepolicy" groups="device,tegu" remote="grapheneos" />
   <project path="device/google/tegu-kernels/6.1" name="device_google_tegu-kernels_6.1" groups="device,tegu" clone-depth="1" remote="grapheneos" />
   <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1"/>
   <project path="device/google/zuma" name="device_google_zuma" groups="device,ripcurrent,pdk-gs-arm" remote="grapheneos" />
