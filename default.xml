@@ -943,7 +943,7 @@
   <project path="prebuilts/vndk/v34" name="platform/prebuilts/vndk/v34" groups="pdk" clone-depth="1" />
   <project path="script" name="script" remote="grapheneos" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/apex" name="platform/system/apex" groups="pdk" />
+  <project path="system/apex" name="platform_system_apex" groups="pdk" remote="grapheneos" />
   <project path="system/authgraph" name="platform/system/authgraph" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
