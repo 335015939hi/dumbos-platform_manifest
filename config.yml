@@ -140,8 +140,11 @@ forked_aosp_repos:
   - device/common
   - device/generic/goldfish
   - external/conscrypt
+  - external/dng_sdk
   - external/selinux
+  - external/skia
   - external/sqlite
+  - frameworks/av
   - frameworks/base
   - frameworks/libs/systemui
   - frameworks/native
@@ -150,6 +153,7 @@ forked_aosp_repos:
   - libcore
   - packages/apps/Calendar
   - packages/apps/CellBroadcastReceiver
+  - packages/apps/CertInstaller
   - packages/apps/Contacts
   - packages/apps/Dialer
   - packages/apps/DocumentsUI
