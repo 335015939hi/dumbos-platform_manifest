@@ -4,7 +4,6 @@
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS/" revision="refs/tags/2026081300"/>
   <remote name="grapheneos-gitlab" fetch="https://gitlab.com/grapheneos/" revision="refs/tags/2026081300"/>
 
-  <remote name="dumbos" fetch="file:///run/media/tony/27673721-dce3-45e9-a732-b35f1a72f448/tony/git/"/>
   <remote name="tonygit" fetch="ssh://git@github.com"/>
   
   <default remote="aosp" revision="refs/tags/android-17.0.0_r1" sync-j="4"/>
