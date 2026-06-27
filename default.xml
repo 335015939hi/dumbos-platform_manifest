@@ -3,6 +3,9 @@
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS/" revision="refs/tags/2026081300"/>
   <remote name="grapheneos-gitlab" fetch="https://gitlab.com/grapheneos/" revision="refs/tags/2026081300"/>
+
+  <remote name="dumbos" fetch="file:///run/media/tony/27673721-dce3-45e9-a732-b35f1a72f448/tony/git/"/>
+  <remote name="tonygit" fetch="ssh://git@github.com"/>
   
   <default remote="aosp" revision="refs/tags/android-17.0.0_r1" sync-j="4"/>
   
@@ -1129,6 +1132,8 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk"/>
   </project>
   <project name="vendor_state" path="vendor/state" remote="grapheneos" revision="d69d029d7fe3745049e80ad64ad1967a9cac8e5f" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" clone-depth="1"/>
+
+  <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   
   <superproject name="platform/superproject" revision="android-17.0.0_r1"/>
   
