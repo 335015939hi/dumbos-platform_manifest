@@ -982,7 +982,6 @@
   <project name="platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="grapheneos" revision="3982cfc3536620c17b2ec5c3494af0fb2a58a633" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600"/>
   <project name="platform_packages_apps_StorageManager" path="packages/apps/StorageManager" remote="grapheneos" revision="c8a15d3464f8aa94a813c2b6ae98bc5684f1ea83" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-fs"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="grapheneos" revision="3d93323a73b6c1ad5aeeaab73afdde9d9fcf56cd" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-fs,sysui-studio"/>
-  <project name="platform_packages_apps_Updater" path="packages/apps/Updater" remote="grapheneos" revision="edcdd45f083828d1b0a46f8786c79686877becab" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600"/>
   <project name="platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="grapheneos" revision="047abce08dbd9e86fc33ce54fbf4f74dfb06e347" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="grapheneos" revision="16e1904884bc99fa322ce51ac0ae25814aeeeb48" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-fs"/>
   <project name="platform_packages_modules_AppSearch" path="packages/modules/AppSearch" remote="grapheneos" revision="333082f3fdb1f2cb22774748f8f91d2c2e3aec3b" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk"/>
@@ -1058,6 +1057,7 @@
   <project name="vendor_state" path="vendor/state" remote="grapheneos" revision="b34bb41b09dae4f40df77b73cb1d1cdf5c16e575" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" clone-depth="1"/>
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
+  <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
   
   <superproject name="platform/superproject" revision="android-16.0.0_r4"/>
   
