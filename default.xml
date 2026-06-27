@@ -1125,7 +1125,7 @@
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
   <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos" clone-depth="1"/>
-  <project name="335015939hi/dumbos-platform_build" path="build/make" remote="tonygit" revision="dumbos" groups="pdk,sysui-studio">
+  <project name="335015939hi/dumbos-platform_build.git" path="build/make" remote="tonygit" revision="dumbos" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
