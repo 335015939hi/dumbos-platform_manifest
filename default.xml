@@ -1057,7 +1057,7 @@
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
-  <project name="335015939hi/dumbos-platform_external_vanadium" path="external/vanadium" remote="tonygit" revision="3898e1688838396a22825c5147aca2e1aaa5a433" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" clone-depth="1"/>
+  <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos" clone-depth="1"/>
   
   <superproject name="platform/superproject" revision="android-16.0.0_r4"/>
   
