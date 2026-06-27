@@ -996,17 +996,9 @@
   <project name="platform_art" path="art" remote="grapheneos" revision="13061d813a07cd915ca204331a00d355db478991" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk"/>
   <project name="platform_bionic" path="bionic" remote="grapheneos" revision="b95b08888b9eb6465c21d5840cce59dc463bfdef" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="grapheneos" revision="420124283bb1ecfca9e5ca5eac0e0ca28ebec427" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk"/>
-  <project name="platform_build" path="build/make" remote="grapheneos" revision="7f0398241bc8c4ef5255a8063befa5045e5cfab4" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio">
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-    <linkfile src="core" dest="build/core"/>
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-    <linkfile src="target" dest="build/target"/>
-    <linkfile src="tools" dest="build/tools"/>
-  </project>
   <project name="platform_build_release" path="build/release" remote="grapheneos" revision="fb0e00657d596e48fc45ed86c9eb6a7c4071d72c" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio,tradefed"/>
   <project name="platform_build_soong" path="build/soong" remote="grapheneos" revision="1f8a2eb90fd78ddefc98d57a968ea009096406b3" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio,tradefed">
-    <linkfile src="root.bp" dest="Android.bp"/>
+     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="platform_cts" path="cts" remote="grapheneos" revision="499ba448045831ad3e19b40e1b45f269d3a779c1" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="cts,pdk-cw-fs,pdk-fs"/>
@@ -1133,6 +1125,14 @@
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
   <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos" clone-depth="1"/>
+  <project name="335015939hi/dumbos-platform_build" path="build/make" remote="tonygit" revision="dumbos" groups="pdk,sysui-studio">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
   
   <superproject name="platform/superproject" revision="android-17.0.0_r1"/>
   
