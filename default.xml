@@ -950,7 +950,6 @@
   <project name="platform_external_selinux" path="external/selinux" remote="grapheneos" revision="5e0140ca8ac9d91fc0d7a9c9fd42118afbf9a0bc" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk"/>
   <project name="platform_external_sqlite" path="external/sqlite" remote="grapheneos" revision="d5fc2fe84c9de27f65939ccf091a8ceff95ed038" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk"/>
   <project name="platform_external_talkback" path="external/talkback" remote="grapheneos" revision="e1a1a93cc7a5095f8f00d1b31429464ab4c76f0f" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" clone-depth="1"/>
-  <project name="platform_external_vanadium" path="external/vanadium" remote="grapheneos-gitlab" revision="3898e1688838396a22825c5147aca2e1aaa5a433" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" clone-depth="1"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="grapheneos" revision="f6fbc85b8fe38163e36e8c7d22b71931a4bd3d14" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk,sysui-studio"/>
   <project name="platform_frameworks_base" path="frameworks/base" remote="grapheneos" revision="7d409cf5c025de0731d60aaf20aba19db1da155f" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="grapheneos" revision="ff8cf84376b03ac72930a17548f42964c4bc17b9" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
@@ -1058,6 +1057,7 @@
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
+  <project name="335015939hi/dumbos-platform_external_vanadium" path="external/vanadium" remote="tonygit" revision="3898e1688838396a22825c5147aca2e1aaa5a433" upstream="refs/tags/2026061600" dest-branch="refs/tags/2026061600" clone-depth="1"/>
   
   <superproject name="platform/superproject" revision="android-16.0.0_r4"/>
   
