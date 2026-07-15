@@ -1056,7 +1056,7 @@
   <project name="335015939hi/dumbos-platform_hardware_interfaces.git" path="hardware/interfaces" revision="dumbos" remote="tonygit" groups="pdk,sysui-studio"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Settings.git" path="packages/apps/Settings" remote="tonygit" revision="dumbos" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <project name="335015939hi/dumbos-platform_packages_modules_Bluetooth.git" path="packages/modules/Bluetooth" remote="tonygit" revision="dumbos" groups="pdk"/>
-  <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" revision="dumbos" groups="pdk"/>
+  <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos" groups="pdk"/>
   
   <superproject name="platform/superproject" revision="android-16.0.0_r4"/>
