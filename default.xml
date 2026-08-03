@@ -1058,6 +1058,7 @@
   <project name="335015939hi/dumbos-platform_packages_modules_Bluetooth.git" path="packages/modules/Bluetooth" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos" groups="pdk"/>
+  <project name="335015939hi/dumbos-qrcode.git" path="packages/apps/DumbosQr" remote="tonygit" revision="master"/>
   
   <superproject name="platform/superproject" revision="android-16.0.0_r4"/>
   
