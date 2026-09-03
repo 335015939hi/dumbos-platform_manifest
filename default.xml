@@ -9,7 +9,6 @@
   <default remote="aosp" revision="refs/tags/android-17.0.0_r1" sync-j="4"/>
   
   <project name="adevtool" path="vendor/adevtool" remote="grapheneos" revision="5019450d9235c48a987250c890e346b416f8dfd4" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300"/>
-  <project name="branding" remote="grapheneos" revision="7149017888121bcba543f57b41e032a8c45fca62" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300"/>
   <project name="device/amlogic/yukawa" revision="cfa1b7f9bf57241b719ea2b1ddcfdd76f26079b9" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="device,pdk,yukawa"/>
   <project name="device/amlogic/yukawa-kernel" revision="ff822d1ec33dc9a8225d34a1c576f8af26fdb0fd" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="device,pdk,yukawa" clone-depth="2"/>
   <project name="device/generic/arm64" revision="71380158d818de918338e34a9cb72316fe3cfa4e" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
@@ -1134,6 +1133,7 @@
   <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-qrcode.git" path="packages/apps/DumbosQr" remote="tonygit" revision="master"/>
+  <project name="335015939hi/dumbos-branding.git" path="branding" remote="tonygit" revision="master"/>
   
   <superproject name="platform/superproject" revision="android-17.0.0_r1"/>
   
