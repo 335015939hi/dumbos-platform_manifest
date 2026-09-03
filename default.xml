@@ -1115,7 +1115,7 @@
   <project name="vendor_state" path="vendor/state" remote="grapheneos" revision="d69d029d7fe3745049e80ad64ad1967a9cac8e5f" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" clone-depth="1"/>
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
-  <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos2026081300"/>
+  <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos-2026081300"/>
   <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos-2026081300" clone-depth="1"/>
   <project name="335015939hi/dumbos-platform_frameworks_base.git" path="frameworks/base" remote="tonygit" revision="dumbos-2026081300" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="335015939hi/dumbos-platform_build.git" path="build/make" remote="tonygit" revision="dumbos-2026081300" groups="pdk,sysui-studio">
