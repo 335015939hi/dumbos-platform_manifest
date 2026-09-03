@@ -1115,10 +1115,10 @@
   <project name="vendor_state" path="vendor/state" remote="grapheneos" revision="d69d029d7fe3745049e80ad64ad1967a9cac8e5f" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" clone-depth="1"/>
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
-  <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos"/>
-  <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos" clone-depth="1"/>
-  <project name="335015939hi/dumbos-platform_frameworks_base.git" path="frameworks/base" remote="tonygit" revision="dumbos" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
-  <project name="335015939hi/dumbos-platform_build.git" path="build/make" remote="tonygit" revision="dumbos" groups="pdk,sysui-studio">
+  <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos2026081300"/>
+  <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos-2026081300" clone-depth="1"/>
+  <project name="335015939hi/dumbos-platform_frameworks_base.git" path="frameworks/base" remote="tonygit" revision="dumbos-2026081300" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="335015939hi/dumbos-platform_build.git" path="build/make" remote="tonygit" revision="dumbos-2026081300" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -1126,14 +1126,14 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="335015939hi/dumbos-platform_hardware_interfaces.git" path="hardware/interfaces" revision="dumbos" remote="tonygit" groups="pdk,sysui-studio"/>
-  <project name="335015939hi/dumbos-platform_packages_apps_Settings.git" path="packages/apps/Settings" remote="tonygit" revision="dumbos" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
-  <project name="335015939hi/dumbos-platform_packages_modules_Bluetooth.git" path="packages/modules/Bluetooth" remote="tonygit" revision="dumbos" groups="pdk"/>
-  <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" remote="tonygit" revision="dumbos" groups="pdk"/>
-  <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos" groups="pdk"/>
+  <project name="335015939hi/dumbos-platform_hardware_interfaces.git" path="hardware/interfaces" revision="dumbos-2026081300" remote="tonygit" groups="pdk,sysui-studio"/>
+  <project name="335015939hi/dumbos-platform_packages_apps_Settings.git" path="packages/apps/Settings" remote="tonygit" revision="dumbos-2026081300" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
+  <project name="335015939hi/dumbos-platform_packages_modules_Bluetooth.git" path="packages/modules/Bluetooth" remote="tonygit" revision="dumbos-2026081300" groups="pdk"/>
+  <project name="335015939hi/dumbos-platform_system_connectivity_wificond.git" path="system/connectivity/wificond" remote="tonygit" revision="dumbos-2026081300" groups="pdk"/>
+  <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos-2026081300" groups="pdk"/>
   <project name="335015939hi/dumbos-qrcode.git" path="packages/apps/DumbosQr" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-branding.git" path="branding" remote="tonygit" revision="master"/>
-  <project name="335015939hi/dumbos-platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="tonygit" revision="dumbos"/>
+  <project name="335015939hi/dumbos-platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="tonygit" revision="dumbos-2026081300"/>
   
   <superproject name="platform/superproject" revision="android-17.0.0_r1"/>
   
