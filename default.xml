@@ -1038,7 +1038,6 @@
   <project name="platform_packages_apps_NetworkLocation" path="packages/apps/NetworkLocation" remote="grapheneos" revision="474472e844069392236782df2568db1f404945d0" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-fs"/>
   <project name="platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="grapheneos" revision="bfe3f1d38dfb51c84f0ba23a4bbe937cc2a6a587" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300"/>
   <project name="platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="grapheneos" revision="bc8b0ee61b906352c278d375423351a3d965b63e" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-fs"/>
-  <project name="platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="grapheneos" revision="3982cfc3536620c17b2ec5c3494af0fb2a58a633" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300"/>
   <project name="platform_packages_apps_StorageManager" path="packages/apps/StorageManager" remote="grapheneos" revision="4e4f65ae3cdbbd683ddd8f98848aa2bceac82831" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-fs"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="grapheneos" revision="870a412786fad48d8bf2696483583b67871ec5d1" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="grapheneos" revision="1b6462b0c01b7c9388fcedcdb6a91317ae5f028d" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-fs,sysui-studio"/>
@@ -1134,6 +1133,7 @@
   <project name="335015939hi/dumbos-platform_system_vold.git" path="system/vold" remote="tonygit" revision="dumbos" groups="pdk"/>
   <project name="335015939hi/dumbos-qrcode.git" path="packages/apps/DumbosQr" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-branding.git" path="branding" remote="tonygit" revision="master"/>
+  <project name="335015939hi/dumbos-platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="tonygit" revision="dumbos"/>
   
   <superproject name="platform/superproject" revision="android-17.0.0_r1"/>
   
