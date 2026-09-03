@@ -1015,6 +1015,7 @@
   <project name="platform_external_protobuf" path="external/protobuf" remote="grapheneos" revision="92dfbe2fea5dd85e302103a9dbd6d85a1bcc0d85" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio"/>
   <project name="platform_external_selinux" path="external/selinux" remote="grapheneos" revision="89cbe3f778261556d1ac4f5ee219745d2aa0a219" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk"/>
   <project name="platform_external_talkback" path="external/talkback" remote="grapheneos" revision="e1a1a93cc7a5095f8f00d1b31429464ab4c76f0f" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" clone-depth="1"/>
+  <project name="platform_external_vanadium" path="external/vanadium" remote="grapheneos-gitlab" revision="57c3996dfd45e8d9b6f0b15b0753c94acb4282ef" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" clone-depth="1"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="grapheneos" revision="754726a46286614231646e567a2f94799ab82f1a" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="grapheneos" revision="2b48d4c9eeaf8bfaa443d8ac7d155995a4d4277f" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_frameworks_native" path="frameworks/native" remote="grapheneos" revision="28bc21c1f0d23832cea4db4fbbb9ed88bdb7bcd8" upstream="refs/tags/2026081300" dest-branch="refs/tags/2026081300" groups="pdk,sysui-studio"/>
@@ -1116,7 +1117,6 @@
 
   <project name="335015939hi/dumbos-dumbos.git" path="external/dumbosd" remote="tonygit" revision="master"/>
   <project name="335015939hi/dumbos-platform_packages_apps_Updater.git" path="packages/apps/Updater" remote="tonygit" revision="dumbos-2026081300"/>
-  <project name="335015939hi/dumbos-platform_external_vanadium.git" path="external/vanadium" remote="tonygit" revision="dumbos-2026081300" clone-depth="1"/>
   <project name="335015939hi/dumbos-platform_frameworks_base.git" path="frameworks/base" remote="tonygit" revision="dumbos-2026081300" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="335015939hi/dumbos-platform_build.git" path="build/make" remote="tonygit" revision="dumbos-2026081300" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
